@@ -135,3 +135,31 @@ nav a {
     text-align: center;
     margin-top: 10px;
 }
+
+/* Section: Quote */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 40px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 0px 10px
+}
